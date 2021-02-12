@@ -1,0 +1,98 @@
+.heading{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+h1{
+    font-size: 40px;
+}
+#nav1{
+    
+    text-align: left;
+}
+#nav3{
+    text-align: right;
+}
+.nav1{
+    
+    background-color: rgb(129, 17, 17);
+    text-align: center;
+}
+a:link{
+    color:white;
+    text-decoration:none ;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    background-color:white;
+    color:black;
+   
+}
+.icon{
+    color:white;
+}
+.icon:hover{
+    background-color:white;
+    color:black;
+}
+/* news */
+.column1{
+    float: left;
+    width:70%;
+    padding: 10px;
+    height:725px
+  }
+  .column2{
+    float: right;
+    width:25%;
+    padding: 10px;
+   
+  }
+  .column {
+    float: left;
+    width: 75%;
+    padding: 10px;
+    height: 900px; /* Should be removed. Only for demonstration */
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+  
+    display: table;
+    clear: both;
+  }
+img{
+    width: 150px;
+    height: 50px;
+    
+}
+.newsimg{
+    float: left;
+   margin-right: 30px;
+  
+}
+.newsmargin{
+    margin:2px 100px 0px 100px;
+}
+.newspara{
+    margin-right: 100px;
+    
+}
+p.newspara{
+    font-size: 15px;
+}
+hr{
+    border-top: 1px solid black;
+}
+p{
+    color: rgb(90, 82, 67);
+}
+#nav2{
+    background-color:#bbb;
+    color:white;
+    font-size: 15px;
+}
